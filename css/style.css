@@ -95,9 +95,9 @@ a{
 /* CARDS */
 
 .card_imovel{
-    height: 360px;
+    height: 280px;
     background: var(--claro);
-    width: 400px;
+    width: 300px;
     padding: 10px;
     border: 1px solid #eee;
     border-radius: 8px;
@@ -115,8 +115,12 @@ a{
 }
 
 .cards_imoveis__imagens{
-    width: 400px;
+    width: 300px;
     border-radius: 5px;
+}
+
+.card_imovel p{
+    font-size: 12px;
 }
 
 .borde_sombra_azul{
