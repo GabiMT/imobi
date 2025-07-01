@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Início</title>
+    <style>
+        /* BANNER */
+        .banner{
+            height: 700px;
+            background: var(--primario);
+        }
+        
+        .camada1{
+            display: grid;
+            grid-template-columns: 500px 500px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .banner__imagem{
+            height: 750px;
+            border-radius: 500px 500px 0 0;
+        }
+
+        .camada2{
+            color: var(--claro);
+            position: absolute;
+            z-index: 2;
+            top: 420px;
+            left: 50%;
+            right: 50%;
+            display: grid;
+            grid-template-columns: 700px 300px;
+            justify-content: center;
+            align-items: center;
+            text-shadow: -3px 3px 10px var(--primario);
+        }
+
+        .banner__texto__titulo_chamativo{
+            font-size: 55px;
+        }
+    </style>
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="img/logotipo_imobi_white.png" height="100px" alt="" class="logotipo">
+        <nav class="navegacao">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="imoveis.html">Imóveis</a></li>
+                <li><a href="quem_somos.html">Quem somos</a></li>
+            </ul>
+        </nav>
+        <a href="contato.html" class="botao_primario_cor2">Contato</a>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="camada1">
+                <div class="vazio"></div>
+                <img src="img/chaves.png" alt="Mão segurando chaves" class="banner__imagem">
+            </div>
+            <div class="camada2">
+                <div class="banner__texto">
+                    <h1 class="banner__texto__titulo_chamativo">Texto chamativo que <span class="destaque_cor">introduz</span> e chama atenção!</h1>
+                    <p class="banner__texto__paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi soluta veritatis itaque magnam libero, similique optio doloremque eligendi quas! Eveniet aliquam nobis reprehenderit praesentium odio delectus quibusdam quo quas est!</p>
+                </div>
+                <div class="vazio"></div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

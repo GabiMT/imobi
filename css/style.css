@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merienda:wght@300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    --claro: #F8F8FF;
+    --escuro: #00071D;
+    --primario: #4169E1;
+    --primario_auxiliar: #F0F8FF;
+    --primario_auxiliar2: #06174d;
+    --secundario: #69E141;
+    --secundario-auxiliar: #F5FFFA;
+    --secundario-auxiliar2: #0b2402;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Lato";
+}
+
+a{
+    text-decoration: none;
+}
+
+/* CABEÇALHO */
+
+.cabecalho{
+    background: var(--primario);
+    color: var(--primario_auxiliar);
+    text-transform: uppercase;
+    font-weight: 700;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    justify-items: center;
+    align-items: center;
+}
+
+.cabecalho a{
+    color: var(--primario_auxiliar);
+    transition: all 0.5s ease;
+}
+
+.logotipo{ /* LOGOTIPO */
+    font-size: 25px;
+    display: flex;
+}
+
+.logo__icone{
+    width: 60px;
+}
+
+.navegacao ul{ /* NAVEGAÇÃO */
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+}
+
+.navegacao ul a:hover{
+    color: var(--secundario);
+}
+
+/* BOTÕES */
+
+.botao_primario_cor2{
+    color: var(--escuro) !important;
+    font-size: 20px;
+    background: var(--secundario);
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: -1px 1px 5px var(--secundario-auxiliar2);
+    transition: all 1s ease;
+}
+
+.botao_primario_cor2:hover{
+    transform: scale(1.2);
+}
+
+/* DESTAQUES */
+
+.destaque_cor{
+    color: var(--secundario);
+}
+
+/* SEÇÕES */
