@@ -85,3 +85,35 @@ a{
 }
 
 /* SEÇÕES */
+
+.titulo_secao{
+    padding: 100px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* CARDS */
+
+.card_imovel{
+    height: 360px;
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: -3px 3px 10px #eee;
+}
+
+.card_imovel h3{
+    padding-top: 10px;
+}
+
+.imoveis_alugar__card_imovel__preco{
+    color: var(--primario);
+    font-weight: 600;
+}
+
+.cards_imoveis__imagens{
+    width: 400px;
+    border-radius: 5px;
+}

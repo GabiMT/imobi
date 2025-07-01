@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,6 +41,17 @@
         .banner__texto__titulo_chamativo{
             font-size: 55px;
         }
+
+        /* LAYOUT CARDS */
+        .imoveis_alugar{
+            height: 800px;
+            justify-items: center;
+        }
+
+        .imoveis_alugar__cards{
+            display: flex;
+            gap: 10px;
+        }
     </style>
 </head>
 <body>
@@ -67,6 +78,39 @@
                     <p class="banner__texto__paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi soluta veritatis itaque magnam libero, similique optio doloremque eligendi quas! Eveniet aliquam nobis reprehenderit praesentium odio delectus quibusdam quo quas est!</p>
                 </div>
                 <div class="vazio"></div>
+            </div>
+        </section>
+        <section class="imoveis_alugar">
+            <h2 class="titulo_secao">Imóveis para Alugar</h2>
+
+            <div class="imoveis_alugar__cards">
+                <div class="card_imovel">
+                    <img src="img/imovel.jpg" alt="Casa estilo americana" class="cards_imoveis__imagens">
+                    <h3>Título imóvel</h3>
+                    <p class="imoveis_alugar__card_imovel__preco">R$ 1.000.000</p>
+                    <p class="imoveis_alugar__card_imovel__descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quasi sed aspernatur natus sequi provident, iure velit facilis.</p>
+                </div>
+
+                <div class="card_imovel">
+                    <img src="img/imovel.jpg" alt="Casa estilo americana" class="cards_imoveis__imagens">
+                    <h3>Título imóvel</h3>
+                    <p class="imoveis_alugar__card_imovel__preco">R$ 1.000.000</p>
+                    <p class="imoveis_alugar__card_imovel__descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quasi sed aspernatur natus sequi provident, iure velit facilis, obcaecati, doloremque vitae quibusdam laborum magnam!</p>
+                </div>
+                
+                <div class="card_imovel">
+                    <img src="img/imovel.jpg" alt="Casa estilo americana" class="cards_imoveis__imagens">
+                    <h3>Título imóvel</h3>
+                    <p class="imoveis_alugar__card_imovel__preco">R$ 1.000.000</p>
+                    <p class="imoveis_alugar__card_imovel__descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quasi sed aspernatur natus sequi provident, iure velit facilis.</p>
+                </div>
+
+                <div class="card_imovel">
+                    <img src="img/imovel.jpg" alt="Casa estilo americana" class="cards_imoveis__imagens">
+                    <h3>Título imóvel</h3>
+                    <p class="imoveis_alugar__card_imovel__preco">R$ 1.000.000</p>
+                    <p class="imoveis_alugar__card_imovel__descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quasi sed aspernatur natus sequi provident, iure velit facilis, obcaecati, doloremque vitae quibusdam laborum magnam!</p>
+                </div>
             </div>
         </section>
     </main>
