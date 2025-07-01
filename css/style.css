@@ -96,6 +96,7 @@ a{
 
 .card_imovel{
     height: 360px;
+    background: var(--claro);
     width: 400px;
     padding: 10px;
     border: 1px solid #eee;
@@ -116,4 +117,8 @@ a{
 .cards_imoveis__imagens{
     width: 400px;
     border-radius: 5px;
+}
+
+.borde_sombra_azul{
+    box-shadow: -3px 3px 10px var(--primario_auxiliar2);
 }
