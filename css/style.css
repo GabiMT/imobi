@@ -24,6 +24,10 @@ a{
     text-decoration: none;
 }
 
+section{
+    padding: 150px 0 200px 0;
+}
+
 /* CABEÇALHO */
 
 .cabecalho{
@@ -87,7 +91,7 @@ a{
 /* SEÇÕES */
 
 .titulo_secao{
-    padding: 100px 0;
+    margin: 0 0 100px 0;
     text-align: center;
     text-transform: uppercase;
 }
@@ -161,4 +165,11 @@ a{
 .linha_icone_frase img{
     height: 40px;
     margin: 10px;
+}
+
+/* MAPA */
+
+.mapa{
+    height: 500px;
+    width: 1400px;
 }
