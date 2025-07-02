@@ -95,8 +95,8 @@ a{
 /* CARDS */
 
 .card_imovel{
-    height: 280px;
     background: var(--claro);
+    height: 280px;
     width: 300px;
     padding: 10px;
     border: 1px solid #eee;
@@ -125,4 +125,40 @@ a{
 
 .borde_sombra_azul{
     box-shadow: -3px 3px 10px var(--primario_auxiliar2);
+}
+
+/* JANELAS de IMAGEM */
+
+.janela_horizontal{
+    height: 500px;
+    width: 750px;
+    border-radius: 500px 500px 0 0;
+}
+
+.janela_vertical{
+    height: 750px;
+    width: 500px;
+    border-radius: 500px 500px 0 0;
+}
+
+/* LINHA de ICONE + FRASE*/
+
+.linhas h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.linha_icone_frase{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--escuro);
+}
+
+.linha_icone_frase img{
+    height: 40px;
+    margin: 10px;
 }

@@ -19,11 +19,6 @@
             align-items: center;
         }
 
-        .banner__imagem{
-            height: 750px;
-            border-radius: 500px 500px 0 0;
-        }
-
         .camada2{
             color: var(--claro);
             position: absolute;
@@ -62,6 +57,14 @@
         .imoveis_comprar h2{
             color: var(--claro);
         }
+
+        .conteudo{
+            display: flex;
+            margin: 150px 0;
+            gap: 100px;
+            justify-content: center;
+            align-items: center;
+        }
     </style>
 </head>
 <body>
@@ -80,7 +83,7 @@
         <section class="banner">
             <div class="camada1">
                 <div class="vazio"></div>
-                <img src="img/chaves.png" alt="Mão segurando chaves" class="banner__imagem">
+                <img src="img/chaves_mao1.png" alt="Mão segurando chaves" class="janela_vertical">
             </div>
             <div class="camada2">
                 <div class="banner__texto">
@@ -153,6 +156,36 @@
                     <h3>Título imóvel</h3>
                     <p class="imoveis_alugar__card_imovel__preco">R$ 1.000.000</p>
                     <p class="imoveis_alugar__card_imovel__descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quasi sed aspernatur natus sequi provident, iure velit facilis, obcaecati, doloremque vitae quibusdam laborum magnam!</p>
+                </div>
+            </div>
+        </section>
+        <section class="vantagens">
+            <!--
+                Financiamento facilitado
+                Transparência e confiança
+                Facilidade de visitação
+            -->
+            <div class="conteudo">
+                <img src="img/chaves_mao2.png" alt="Mão segurando chaves" class="janela_horizontal">
+                <div class="linhas">
+                    <h2>Por que nos escolher</h2>
+
+                    <div class="linhas_icone_frase">
+                        <div class="linha_icone_frase">
+                            <img src="img/icones/cifrao_check.png" alt="icone dinheiro com certinho">
+                            <p>Financiamento Facilitado</p>
+                        </div>
+
+                        <div class="linha_icone_frase">
+                            <img src="img/icones/aperto_maos.png" alt="icone mãos se apertando">
+                            <p>Transparência e Confiança</p>
+                        </div>
+
+                        <div class="linha_icone_frase">
+                            <img src="img/icones/relogio.png" alt="icone relógio">
+                            <p>Facilidade de Visitação</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
